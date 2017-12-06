@@ -40,5 +40,10 @@ namespace Phoneword
                     dialer.Dial(translatedNumber);
             }
         }
+
+        async void OnCall2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page1());
+        }
     }
 }

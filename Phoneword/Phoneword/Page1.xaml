@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phoneword.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="test text"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button x:Name="changePage" Text="Change page" IsEnabled="true" Clicked="Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
